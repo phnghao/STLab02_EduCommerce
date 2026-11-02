@@ -1,0 +1,21 @@
+[project]
+name = "stlab02-educommerce"
+version = "0.1.0"
+description = "STLab02 - Test Case Execution"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "gradio>=6.31.0",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.5",
+    "matplotlib>=3.11.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.0",
+    "pytest>=9.2.0",
+]
